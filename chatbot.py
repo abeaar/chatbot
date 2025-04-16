@@ -8,7 +8,7 @@ st.title("Chatbot")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-    st.session_state.messages.append(SystemMessage("Act like a NEWS REPORTER"))
+    st.session_state.messages.append(SystemMessage("Act like a problem solver. Answer the questions as best as you can, also dont add any extra information."))
 
 # display chat messages from history on app rerun
 for message in st.session_state.messages:
